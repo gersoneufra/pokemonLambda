@@ -3,6 +3,7 @@ name: CI Development
 on:
   push:
     branches:
+      - '*'
       - '!master'
 jobs:
   test:
