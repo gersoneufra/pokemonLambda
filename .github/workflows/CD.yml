@@ -9,23 +9,6 @@ on:
     branches: [ master ]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test:
-    name: CI production
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.6
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.6
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirement.txt
-    - name: Lint with pylint
-      run: |
-        pip install pylint
-        pylint **/*.py
   # This workflow contains a single job called "build"
   deploy:
     name: CD production - Lambda
