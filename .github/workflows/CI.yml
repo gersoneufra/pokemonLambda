@@ -1,7 +1,8 @@
 name: CI Development
 
-on: [push, pull_request]
-
+on:
+  push:
+    - '!master'
 jobs:
   test:
     runs-on: ubuntu-latest
