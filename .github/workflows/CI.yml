@@ -21,3 +21,7 @@ jobs:
       run: |
         pip install pylint
         pylint **/*.py
+    - name: Test TDD
+      run: |
+        pip install pytest
+        pytest tests

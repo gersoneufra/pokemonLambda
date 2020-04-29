@@ -1,0 +1,92 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://pokeapi.co/api/v2/pokemon/ditto/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA82azXKjOhCF30VrCAbbceLdLO9u9rdSlAyyUY1AXEn4p1J59yuBcByPhqjBU8Uq
+        mApf9wGp+yD0jvCOMqookWj777v9dUHbd1ThkqAtomXNpSICBagRTJ8olKrlNopq/ovgmj5lPNJ/
+        omMS2YujeL2I0EeAqEwLmuekQlslGhIgybhC2+VH4ArEaLkDhdncB9ljJq9R4o+3AO2wJCk510RQ
+        UmU6SryIA7Tnouzk2tA5VYp7RDZnSl6FBhDFy0QnoIMcNCSlVU4zexP7E+SsAy6TAB2JkJRXN2JP
+        BVUkTDxi2mujxEQzd86DvmM4+wWjx/70NncAO34BZg5hb/zZkjdMUnb0GmTXAM/+AQqChTpwlkP4
+        a39+zbCiVVNC8CsAXqfPIOylPzunWE8c0I0BjHdG8P4giK4BAD5gxO+pIIKAsl/400lJBAYNmlfA
+        oMd1Xej0AXTAdBXN7gIgAyZrJi5SYchwBExUcBUATFLg/HfNz82zC3whjPETAO2anm70jjWQAeKa
+        mW4wcNIYrm6oBaGHwhgFc8jyVLcb26/N0Q2+JHqIhDU/5V5P01wdJctV6xts0DTXDMo6vMCi9SRr
+        l5aGKYFD2UCKTNLP1EFyyTkI+uIDhczLZOVDPEOISx/iBBc0yJ3gf77Pd4zz+T7bMZ5nkDrN7Qyi
+        J/mcQfIUhzMMHuttBqkTXM0gd5KfGSRPcDKD3PEeZngQj3cvg9wxvuXNUO8a0H8N1YUG2IDW8fcN
+        aPH3OpATPbkFOanTepATOa0JOZGP6EJO8CPa0J8zntSH/pzvpEbkxD6oEznZj2lFTvRDepGbPLkZ
+        ObFju9Gb8dw0t280VOqKtMe61vSrdoxn+k7oSoUFwSmpMt5UShN8lsraVbKbSwJdaY52mcwc3aSv
+        a1slzcqahwBzqb7bX538QfCm/lJOGTkSlupuKiqSp9isCnYJdOdS/f5Q8PxL49UXhE3tmULYYsIO
+        E8W/Z+Mq3mF3BKu4YYv7nMhzUmY0jVOzmaEaXpIDDo1BCDGrC/3IwB6kl/c8Q3nnENCUeyHrGQqx
+        zTUEd+9e1GqGos6A6t3rWM5QR8YZl5JAmmcvJ5mhnG6sAV1XLyieoaCrbQrHmLNe2WKGyuCuzap5
+        naEY6+hCoGG0iuboFez6QzhihcOqmqNnAK9+WC1zNAit8xnteeboFMCfkqyWORqErmaPq9dzNArQ
+        j1pWyhxNgilrsA9pfR+9voTfbUfhwiwrbuPXTYBkTbJ2k87oTSuWYPetGKLQfqYl7rS9+Xzrv7IE
+        Pj0dqCqaXSOJyLh+ha+UJpfRT8388fOfyDKiEpstQtef/cu/4Zp4T3V1QEEXZk9KzHT+VcOYPSUL
+        Wl0eHrel3kdvT97lsBc6wt+Q/xm7C+EK+3Dt97JvwnxJwIwAhVW3UNLukzI/0Xb1EiCy33Ohjxfd
+        /9y+69fE6+uBueza3iD0jGIW6mdBKukzk9o467FxsFJ+K55tmBU0DFDGEsqHpZ8M4+Pf8IVPlWzR
+        /Yd7dant2p7dg9edumFWXJRerdhcd+We7IaA1eLjf2SuiL6xKAAA
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '895'
+      CF-Cache-Status:
+      - HIT
+      CF-RAY:
+      - 58b59a5b0e1dd829-EZE
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1179'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Apr 2020 02:30:46 GMT
+      Etag:
+      - W/"28b1-tyDig3BYFY0aqy64yb8Ju6MV01U"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Function-Execution-Id:
+      - 7d7586vrxwff
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d2916731f3f77b4a39fb3eae8040bec261588127446; expires=Fri, 29-May-20
+        02:30:46 GMT; path=/; domain=.pokeapi.co; HttpOnly; SameSite=Lax; Secure
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Cloud-Trace-Context:
+      - a8070b1ba439fc1e542daff3fd25ee65
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-eze19325-EZE
+      X-Timer:
+      - S1583844060.989386,VS0,VE1
+      cf-request-id:
+      - 02655ecce40000d82916168200000001
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -6,8 +6,4 @@ def lambda_handler(event, context):
     message = 'Hello {} {}!'.format(event['first_name'],
                                     event['last_name'])
 
-    print(pokemon.all())
-
-    return {
-        'message' : message
-    }
+    return(pokemon.all())
